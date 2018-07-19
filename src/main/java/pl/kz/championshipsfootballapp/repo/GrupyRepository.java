@@ -13,8 +13,9 @@ import pl.kz.championshipsfootballapp.model.Grupy;
     @Repository
     public interface GrupyRepository extends CrudRepository<Grupy, Long> {
 
-        public abstract List<Grupy> findById(long id);
+        public abstract Grupy findById(long id);
         public abstract List<Grupy> findAll();
+		//public abstract Grupy findOne(long id);
     }
 
 
