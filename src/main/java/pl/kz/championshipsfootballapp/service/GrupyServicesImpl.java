@@ -20,7 +20,7 @@ public class GrupyServicesImpl implements GrupyServices {
 
     @Override
     public List<String> getAllGrupy(long id) {
-        List <String> wynik = new ArrayList<String>();
+        List <String> wynik = new ArrayList<>();
         List<Grupy> grupys= grupyRepository.findAll();
         for(Grupy grupy : grupys){
             wynik.add(grupy.getNazwa());

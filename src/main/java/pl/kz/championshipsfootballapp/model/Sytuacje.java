@@ -1,7 +1,7 @@
 package pl.kz.championshipsfootballapp.model;
 
-/**
- * Created by JACZAW on 29.05.2018.
+/*
+  Created by JACZAW on 29.05.2018.
  */
 import java.awt.*;
 import java.io.Serializable;
